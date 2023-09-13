@@ -1,0 +1,158 @@
+body{
+	background-color:#ffdc98;
+}
+.fullOuter{
+	width:80%;
+	height:auto;
+	margin:30px auto;
+	box-shadow:0px 0px 10px 3px #39393942;
+	padding:40px 40px;
+	background-color:#ffffff;
+}
+.header{
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	/* background-color:white; */
+	padding:20px 20px;
+	box-shadow:0px 0px 10px 3px lightgray;
+	background-color:#f19c11;
+}
+.nameofDhan{
+	margin-right:50px;
+}
+li:hover{
+	color:#ff9f01;
+}
+a:hover{
+	color:#ff9f01;
+}
+.li{
+	color:#fffefeb5;
+	text-decoration:none;
+}
+h3{
+	margin-left:10px;
+}
+.title{
+	font-size:70px;
+	margin:0px;
+}
+.subTitleone{
+	font-size:30px;
+	/* margin:10px; */
+	background-color:#f19c11;
+	box-shadow:0px 0px 10px 3px lightgray;
+	padding:7px;
+}
+.subTitle{
+	font-size:30px;
+	/* margin:10px; */
+	background-color:#f19c11;
+	box-shadow:0px 0px 10px 3px #161616;
+	padding:7px;
+}
+.developtitle{
+	line-height:30px;
+}
+.image{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	margin-left:50px;
+}
+.linkweb{
+	color:#ff9f01;
+	font-weight:700;
+	text-decoration:none;
+}
+.listitem::first-line{
+	font-variant: small-caps;
+}
+.listofskills li{
+	font-size:20px;
+}
+.paraofabout{
+	font-size:20px;
+}
+.flexdiv{
+	display:flex;
+	justify-content:space-between;
+}
+.rightSidebox{
+	width:30%;
+	height:auto;
+	box-shadow:0px 0px 10px 3px lightgray;
+	margin-left:40px;
+	padding:20px;
+	background-color:#29292b;
+}
+@media (max-width:650px){
+.fullOuter{
+	width:80%;
+	height:auto;
+	margin:10px auto;
+	box-shadow:0px 0px 10px 3px lightgray;
+	padding:20px 20px;
+}
+.header{
+	justify-content:space-between;
+}
+.flexdiv{
+	display:block;
+	/* justify-content:space-between; */
+}
+.rightSidebox{
+	width:90%;
+	height:auto;
+	box-shadow:0px 0px 10px 3px lightgray;
+	margin:0px auto;
+	padding:20px;
+}
+.nameofDhan{
+	margin-right:0px;
+}
+.title{
+	font-size:34px;
+	padding:10px;
+}
+.title {
+    visibility: hidden;
+    position: relative;
+}
+.title:after {
+    visibility: visible;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    content: "Dhanush";
+}
+.subTitletop{
+	font-size:14px;
+	margin-top:-40px;
+}
+.image{
+	width:80px;
+	height:auto;
+	border-radius:50%;
+	margin-left:0px;
+}
+.linkweb{
+	display:block;
+	margin:10px 0px;
+}
+.listofskills .li{
+	font-size:16px;
+}
+.subTitleone{
+	font-size:22px;
+}
+.subTitle{
+	font-size:22px;
+}
+.header{
+	padding:10px;
+}
+}
+
