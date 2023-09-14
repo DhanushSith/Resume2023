@@ -88,6 +88,10 @@ h3{
 	padding:20px;
 	background-color:#29292b;
 }
+@media (min-width:720px){
+.skillsFullDivtop{
+	display:none;
+}
 @media (max-width:730px){
 .fullOuter{
 	width:90%;
@@ -162,6 +166,9 @@ h3{
 }
 .skilldiv{
 	padding-right:20px;
+}
+.skillsFullDivBottom{
+	display:none;
 }
 }
 
