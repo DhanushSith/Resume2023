@@ -22,6 +22,7 @@ body{
 .nameofDhan{
 	margin-right:50px;
 }
+
 li:hover{
 	color:#ff9f01;
 }
@@ -88,12 +89,13 @@ h3{
 	padding:20px;
 	background-color:#29292b;
 }
-@media (min-width:731px){
+
+@media (min-width:721px){
 .skillsFullDivtop{
 	display:none;
 }
 }
-@media (max-width:730px){
+@media (max-width:720px){
 .fullOuter{
 	width:90%;
 	height:auto;
