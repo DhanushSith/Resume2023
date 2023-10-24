@@ -16,8 +16,8 @@ body{
 	align-items:center;
 	/* background-color:white; */
 	padding:20px 20px;
-	box-shadow:0px 0px 10px 3px lightgray;
-	background-color:#e6e6e6;
+/* 	box-shadow:0px 0px 10px 3px lightgray;
+	background-color:none; */
 }
 .nameofDhan{
 	margin-right:50px;
@@ -84,10 +84,10 @@ h3{
 .rightSidebox{
 	width:30%;
 	height:auto;
-	box-shadow:0px 0px 10px 3px lightgray;
+/* 	box-shadow:0px 0px 10px 3px lightgray; */
 	margin-left:40px;
 	padding:20px;
-	background-color:lightgray;
+/* 	background-color:lightgray; */
 }
 
 @media (min-width:721px){
